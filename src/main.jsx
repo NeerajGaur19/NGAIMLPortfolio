@@ -6,8 +6,8 @@ import './styles.css';
 
 const GITHUB = 'https://github.com/NeerajGaur19/NeerajGaur19';
 const PROJECTS_URL = 'https://github.com/NeerajGaur19/NeerajGaur19/tree/main/Projects';
-const LINKEDIN = 'https://www.linkedin.com/'; // Replace with your profile URL before publishing.
-const EMAIL = 'your.email@example.com'; // Replace with your professional email before publishing.
+const LINKEDIN = 'www.linkedin.com/in/neerajgaur82'; // Replace with your profile URL before publishing.
+const EMAIL = 'neeraj19.job@gmail.com'; // Replace with your professional email before publishing.
 
 const projects = [
   {
