@@ -85,7 +85,7 @@ function Header() {
   const location = useLocation();
   React.useEffect(() => setOpen(false), [location.pathname]);
   return <header className="site-header"><div className="container nav-wrap">
-    <Link to="/" className="brand"><span className="brand-mark">NG</span><span>Neeraj Gaur<span className="brand-sub">AI / ML PORTFOLIO</span></span></Link>
+    <Link to="/" className="brand"><span className="brand-mark">NG</span><span>Neeraj Gaur<span className="brand-sub">AI / ML / Test Management Portfolio</span></span></Link>
     <button className="mobile-toggle" aria-label="Toggle navigation" onClick={() => setOpen(!open)}>{open ? <X/> : <Menu/>}</button>
     <nav className={open ? 'nav-links open' : 'nav-links'} aria-label="Main navigation">
       <NavLink to="/" end>Home</NavLink><NavLink to="/projects">Projects</NavLink><NavLink to="/about">About</NavLink><NavLink to="/contact">Contact</NavLink>
