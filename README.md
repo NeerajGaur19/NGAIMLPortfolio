@@ -1,4 +1,4 @@
-# Neeraj Gaur --- AI/ML Portfolio
+# Neeraj Gaur - AI/ML Portfolio
 
 A responsive, recruiter-facing portfolio website built with React and
 Vite. It presents AI/ML projects through searchable project cards and
