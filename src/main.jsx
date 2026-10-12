@@ -13,7 +13,7 @@ const projects = [
   {
     slug: 'rag-document-chatbot', title: 'Multi-Document PDF RAG Chatbot', category: 'Generative AI', icon: '✳', featured: true,
     summary: 'Ask questions about uploaded documents and generate responses grounded in retrieved content.',
-    description: 'A retrieval-augmented generation workflow that connects document ingestion and semantic retrieval to an LLM response. The portfolio entry is structured to explain the complete pipeline and make the implementation easy for recruiters to inspect.',
+    description: 'A Multi-Document PDF Retrieval-Augmented Generation (RAG) chatbot that enables users to upload documents, ask natural-language questions, and receive context-aware answers grounded in the provided content. The solution combines document processing, text chunking, embedding generation, semantic retrieval, and Large Language Model (LLM) response generation to make information retrieval more efficient and relevant.',
     tags: ['Python', 'LangChain', 'Embeddings', 'ChromaDB', 'LLMs'],
     problem: 'Searching long documents manually is slow, and a general-purpose model may answer without using the supplied source material.',
     approach: ['Load and split source documents into manageable chunks.', 'Create embeddings and index chunks in a vector store.', 'Retrieve relevant passages for a user question.', 'Pass retrieved context to the language model and present a grounded answer.'],
